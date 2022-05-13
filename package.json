@@ -1,0 +1,29 @@
+{
+  "name": "assignment_wanted",
+  "version": "1.0.0",
+  "description": "Wanted node.js assignment",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon --watch ./ app.js",
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaemin-jeong/anonymous_forum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaemin-jeong/anonymous_forum/issues"
+  },
+  "homepage": "https://github.com/jaemin-jeong/anonymous_forum#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.19.0",
+    "sequelize-auto": "^0.8.8"
+  }
+}
