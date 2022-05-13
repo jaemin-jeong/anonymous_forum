@@ -11,6 +11,12 @@ config/config.json 파일에 이메일로 공유드린 username, password, datab
 #### 3. 서버 시작
 npm run server
 
+
+### DB 스키마
+- 게시글 테이블, 댓글 테이블, 키워드 테이블로 구성되어 있습니다.
+- schema_script 폴더를 참고해주세요.
+
+
 ### API 테스트
 포스트맨을 통해 API 테스트를 할 수 있습니다.
 
